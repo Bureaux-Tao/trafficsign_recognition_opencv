@@ -13,4 +13,4 @@ cmake --build cmake-build-debug --target opencv -- -j 6
 ```
 3. The step 2 will generate the executable file in `cmake-build-debug`, which can be directly run.
 ## User Tutorials
-Enter `1` to use the sample picture with target logo in this report. Enter `2` is to use the sample picture that comes with the project without the target logo. Enter `3` to enter the absolute path of the third-party image.
+Enter `1` to use the sample image with target sign in this report. Enter `2` is to use the sample image that comes with the project without the target sign. Enter `3` to enter the absolute path of the third-party image.
