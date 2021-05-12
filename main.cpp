@@ -253,6 +253,10 @@ int main(int argc, char **argv) {
 
     Mat origin = imread(originPath, IMREAD_COLOR);
     Mat standard = imread(standardPath, IMREAD_COLOR);
+    if (standard.empty()) {
+        cout << "Could not load sample image due to the wrong path! Please fix the path of sample path in source code line 13!" << endl;
+        exit(404);
+    }
     if (origin.empty()) {
         cout << "Could not load image due to the wrong path! " << endl;
         exit(404);
